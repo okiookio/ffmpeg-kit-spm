@@ -2,7 +2,7 @@
 set -e
 
 FFMPEG_KIT_TAG="min.v5.1.2.5"
-FFMPEG_KIT_CHECKOUT="origin/develop"
+FFMPEG_KIT_CHECKOUT="origin/main"
 #FFMPEG_KIT_CHECKOUT="origin/tags/$FFMPEG_KIT_TAG"
 
 FFMPEG_KIT_REPO="https://github.com/okiookio/ffmpeg-kit"
