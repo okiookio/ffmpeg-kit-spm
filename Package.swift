@@ -6,14 +6,14 @@ import PackageDescription
 let release = "min.v5.1.2.5"
 
 let frameworks = [
-    "ffmpegkit": "66c859860382999b52a8a053ae7f088fbc066b028f045e032f1900e79c247037",
-    "libavcodec": "ca961f609253d6d4b7d288080f338a957586fdb213e409237047743041583ef0",
-    "libavdevice": "9abb6de9664acf3a7316521fed546bed9392bbdcb42503edfd324243d0f54bc7",
-    "libavfilter": "c03dbb7ff3f966fed113705fe40eac544de67c0674702b14cc843d5ee48fe362",
-    "libavformat": "a14d53de180f6683248bc005651903027a71d7c8d06b0720a1e430380727dab2",
-    "libavutil": "31fc9792b45c1dd3f4c8c053262153936746fa2d7431f4fbba0a2fef1a77c38b",
-    "libswresample": "03e4e74105eecbe5a4a1029adae9e283029c7136b47210432f4b694e5c8ed1c0",
-    "libswscale": "b7f871042e6c10edef9150ae8858b0a697b88722f747840373588f19884b7182",
+    "ffmpegkit": "96c4033ab9bccc9941e3e74034194ecbea10abdb0b557b7aafe71884b77d9e93",
+    "libavcodec": "ced5d68bc6b9e7f7073feabdee049637124b2314e133733fea04deae5311acdc",
+    "libavdevice": "0be1b97fc8e9b8d3a36b4dd28ad99496bbfa2f6dffe28aca031ec3c10a2def91",
+    "libavfilter": "916b2ac0caa8aa6ae323c3b7e00268c7edf344e5c47f76f883e103c1448cdea6",
+    "libavformat": "236e1442012fc05d707ea96db5c20b106eef10a5c03735e0626f70ca0fcf9c1a",
+    "libavutil": "b1cf9184569be43a382634530abf35d5396990eb9c422cb84006ff0c59968bb7",
+    "libswresample": "ad922bfe9c6029d58e9380fad287cc0561b33db96dc1321a63925a7a755dbc12",
+    "libswscale": "cc86f795728b2325e31a58f54d1fb38e7e327d33f3ec664db2f375bd48e57b75",
 ]
 
 func xcframework(_ package: Dictionary<String, String>.Element) -> Target {
